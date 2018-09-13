@@ -2,7 +2,7 @@
 
 namespace GothicLibrary
 {
-    public class Class1
+    public class GothicProcess
     {
     }
 }
