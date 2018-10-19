@@ -26,6 +26,9 @@ namespace GothicLibrary
         public static extern IntPtr OpenProcess(ProcessAccessFlags processAccess, Boolean bInheritHandle, Int32 processId);
 
         [DllImport("kernel32.dll")]
+        public static extern bool CloseHandle(IntPtr hObject);
+
+        [DllImport("kernel32.dll")]
         static extern bool ReadProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, Byte[] lpBuffer, Int32 dwSize, out Int32 lpNumberOfBytesRead);
 
         [DllImport("kernel32.dll")]

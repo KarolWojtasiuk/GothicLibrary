@@ -20,5 +20,10 @@ namespace GothicLibrary
             this.GameVersion = gameVersion;
             this.ProcessHandle = Kernel32.OpenProcess(Kernel32.ProcessAccessFlags.All, false, Process.GetProcessesByName(processName).FirstOrDefault().Id);
         }
+
+        ~GothicProcess()
+        {
+            Kernel32.CloseHandle(ProcessHandle);
+        }
     }
 }
