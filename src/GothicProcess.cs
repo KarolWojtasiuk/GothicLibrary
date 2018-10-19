@@ -7,7 +7,7 @@ namespace GothicLibrary
     public enum GothicVersion
     {
         Gothic1,
-        Gothic2NotR
+        Gothic2
     }
 
     public class GothicProcess
