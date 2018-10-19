@@ -38,4 +38,4 @@ Game in version 2.6
 This project is licensed under the GNU GPL v3 License - see the LICENSE.md file for details
 
 # Acknowledgments
-(Matiszp)[https://themodders.org/index.php?action=profile;u=20573] for graphics
+[Matiszp](https://themodders.org/index.php?action=profile;u=20573) for graphics
