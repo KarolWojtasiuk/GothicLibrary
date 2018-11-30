@@ -6,11 +6,13 @@ A class library for reading and writing variables from games Gothic and Gothic 2
 # Using
 1. Create instance of class GothicProcess.
 ```csharp
-GothicProcess myGothic = new GothicProcess(GothicVersion.Gothic2, "Gothic2");
+GothicProcess myGothic1 = new GothicProcess(GothicVersion.Gothic1, "GothicMod"); //Gothic 1
+GothicProcess myGothic2 = new GothicProcess(GothicVersion.Gothic2, "Gothic2"); //Gothic 2 NotR
 ```
 2. Get value of variable from game.
 ```csharp
-int hp = myGothic.ReadVariable(AddressList.HERO_ATR_HITPOINTS);
+int hp1 = myGothic1.ReadVariable(AddressList.HERO_ATR_HITPOINTS); //Gothic 1
+int hp2 = myGothic2.ReadVariable(AddressList.HERO_ATR_HITPOINTS); //Gothic 2 NotR
 ```
 
 You can view the list of added addresses by using IntelliSense or by browsing the Address.cs file.
