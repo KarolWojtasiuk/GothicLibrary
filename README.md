@@ -1,3 +1,6 @@
+```diff
+- Deprecated! Don't use in future projects. New version in plans.
+```
 ![GothicLibrary](https://i.imgur.com/IKBPYV4.jpg)
 
 # Description
