@@ -1,8 +1,8 @@
+![NuGet](https://img.shields.io/nuget/dt/GothicLibrary?style=for-the-badge)
 ```diff
 - Deprecated! Don't use in future projects. New version in plans.
 ```
 ![GothicLibrary](https://i.imgur.com/IKBPYV4.jpg)
-
 # Description
 A class library for reading and writing variables from games Gothic and Gothic 2 NotR.
 
