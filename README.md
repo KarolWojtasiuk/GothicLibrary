@@ -1,6 +1,7 @@
 ![NuGet](https://img.shields.io/nuget/dt/GothicLibrary?style=for-the-badge)
 ```diff
 - Deprecated! Don't use in future projects. New version in plans.
+- Code is really bad quality because this was one of my first projects in C#.
 ```
 ![GothicLibrary](https://i.imgur.com/IKBPYV4.jpg)
 # Description
